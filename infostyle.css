@@ -1,11 +1,43 @@
 h1 {
-  color: blue;
+  color: white;
 }
 
 body {
-  background-image:url('bg.png');
+  background-image:url('bg2.png');
+  background-size: cover;
+  position: center;
 }
 
 p {
   color: white;
+}
+
+.navigation .btnWhatsapp-popup {
+  width: 200px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+.navigation .btnBack-popup {
+  width: 70px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
