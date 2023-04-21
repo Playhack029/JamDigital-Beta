@@ -13,6 +13,8 @@ body {
   transform: translate(-50%, 50%);
   text-align: center;
   background-image:url('bg.png');
+  background-position: center;
+  background-size: cover;
 }
 
 .digital {
@@ -36,6 +38,21 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
+}
+
+.navigation .btnNext-popup {
+  width: 70px;
+  height: 30px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
 
 .jam,
